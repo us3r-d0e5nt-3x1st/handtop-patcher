@@ -1,0 +1,17 @@
+[Unit]
+Description=RG40XX H Joystick RGB LEDs
+Documentation=https://github.com/ROCKNIX/distribution
+Wants=dev-ttyS2.device
+After=dev-ttyS2.device
+After=suspend.target
+
+[Service]
+Type=oneshot
+
+ExecStart=/usr/bin/python3 /usr/local/bin/joystick-leds.py
+
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target suspend.target
