@@ -25,4 +25,4 @@ It's a custom system service made by me to support the RGB LEDs around the joyst
 # Huge thanks to these amazing projects :
 ROCKNIX - For making a mainline kernel and u-boot for these devices - https://github.com/ROCKNIX <br>
 junsulee119 - For making the whole Debian based OS for RG35XX-H - https://github.com/junsulee119 <br>
-Raspberry Pi Foundation - For making the rpi-imager that can actually flash the f*cked up image file and later skyrocketing the rpi prices by selling it all only to companies, and for making software blobs everywhere instead of releasing full drivers to stuff, and for making the rpi hardware closed source (no full schematics, no service manuals etc)
+Raspberry Pi Foundation - For making the rpi-imager that can actually flash the f*cked up image file... and later skyrocketing the rpi prices by selling it all only to companies, and for making software blobs everywhere instead of releasing full drivers to stuff, and for making the rpi hardware closed source (no full schematics, a mortal can't buy only the SoC itself etc), radxa is in fact better, it's just that the raspberry pi was the first one.
